@@ -3,7 +3,7 @@ import java.net.InetAddress;
 import java.net.Socket;
 
 public class Client {
-    private static final int PORT = 1338;
+    private static final int PORT = 1339;
 
     public static void main(String[] args) {
         try {

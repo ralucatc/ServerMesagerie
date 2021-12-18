@@ -31,8 +31,8 @@ public class Topic {
     public Date getDate() {
         return date;
     }
-//    public boolean isExpired() {
-//        long time = new Date().getTime() - this.date.getTime();
-//        return (timeout < time || Server.getMaxMessageTimeout() < time);
-//    }
+    public boolean isExpired() {
+        long time = new Date().getTime() - this.date.getTime();
+        return (timeout < time || Server.getMaxMessageTimeout() < time);
+    }
 }

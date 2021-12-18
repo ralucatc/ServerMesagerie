@@ -7,7 +7,6 @@ public class MessageConsumer extends Thread {
     public void run() {
         System.out.println("Message consumer started...");
 
-        //TODO Add Server class
         while (true) {
             try {
                 Queue<Message> messages = Server.getMessages();

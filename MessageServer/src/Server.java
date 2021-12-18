@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Server {
-    private static final int PORT = 1339;
+    private static final int PORT = 8081;
     private static int usersCounter = 0;
     private static Map<User, Socket> connectedClients = new HashMap<>();
     private static Queue<Message> messages = new ConcurrentLinkedQueue<>();
